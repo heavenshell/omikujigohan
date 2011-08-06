@@ -45,7 +45,6 @@
  */
 
 require_once 'prepare.php';
-#require_once dirname(__DIR__) . '/www/index.php';
 
 use Silex\WebTestCase;
 
