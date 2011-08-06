@@ -130,7 +130,6 @@ class Menu
      */
     public function format($str)
     {
-        $array  = str_split(str_replace('ー', '|', $str));
         $array  = preg_split('//u', str_replace('ー', '|', $str));
         $result = array_map(function ($val) {
             if ($val === '') {
