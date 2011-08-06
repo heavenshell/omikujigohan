@@ -4,35 +4,35 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>メニューに迷ったら! おみくじゴハン。</title>
 <link href="css/site.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/slideMenu.js"></script>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/slideMenu.js"></script>
 </head>
 
 <body>
 <p>メニューに迷ったらおみくじごはん</p>
 <div id="Maincolumn">
-<form id="form1" name="form1" method="post" action="result.php">
-  <h1><a href="http://omikujigohan.woopsdez.jp/"><img src="images/mainimages.gif" width="300" height="265" alt="おみくじごはん" /></a></h1>
-<p id="omikuji"><input type="image" src="images/btn_start.gif" alt="おみくじスタート" width="89" height="69" /></p>
+<form id="form1" name="form1" method="post" action="/result">
+  <h1><a href="http://omikujigohan.woopsdez.jp/"><img src="/images/mainimages.gif" width="300" height="265" alt="おみくじごはん" /></a></h1>
+<p id="omikuji"><input type="image" src="/images/btn_start.gif" alt="おみくじスタート" width="89" height="69" /></p>
 <p id="contents">いいのが出るかな。</p>
 
  <div id="Option"> 
    <div id="Items">
     <dl>
       <dt>下のフォームにメニューを入れるとその中のメニューだけでおみくじができるゾ。</dt>
-      <dd><input type="text" name="item0" id="item0" /></dd>
-      <dd><input type="text" name="item1" id="item1" /></dd>
-      <dd><input type="text" name="item2" id="item2" /></dd>
-      <dd><input type="text" name="item3" id="item3" /></dd>
-      <dd><input type="text" name="item4" id="item4" /></dd>
-      <dd><input type="text" name="item5" id="item5" /></dd>
-      <dd><input type="text" name="item6" id="item6" /></dd>
-      <dd><input type="text" name="item7" id="item7" /></dd>
-      <dd><input type="text" name="item8" id="item8" /></dd>
-      <dd><input type="text" name="item9" id="item9" /></dd>
+      <dd><input type="text" name="item[]" id="item0" /></dd>
+      <dd><input type="text" name="item[]" id="item1" /></dd>
+      <dd><input type="text" name="item[]" id="item2" /></dd>
+      <dd><input type="text" name="item[]" id="item3" /></dd>
+      <dd><input type="text" name="item[]" id="item4" /></dd>
+      <dd><input type="text" name="item[]" id="item5" /></dd>
+      <dd><input type="text" name="item[]" id="item6" /></dd>
+      <dd><input type="text" name="item[]" id="item7" /></dd>
+      <dd><input type="text" name="item[]" id="item8" /></dd>
+      <dd><input type="text" name="item[]" id="item9" /></dd>
     </dl>
   </div>
-  <p id="button"><img src="images/tab_option.gif" alt="候補を入れる" name="btn" width="41" height="132" /></p>
+  <p id="button"><img src="/images/tab_option.gif" alt="候補を入れる" name="btn" width="41" height="132" /></p>
  </div>
  
 <div class="Clock">
@@ -41,7 +41,7 @@
 </form>
 </div>
 <div id="Footer">
-  <p><img src="images/footerimages.gif" width="444" height="164" /></p>
+  <p><img src="/images/footerimages.gif" width="444" height="164" /></p>
   <p>運営：<a href="http://blog.woopsdez.jp">ウープスデザイン</a> | <a href="mailto:woops.mirai@gmail.com">お問い合わせ</a></p>
 </div>
 <script type="text/javascript">
